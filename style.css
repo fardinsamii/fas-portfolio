@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -6,6 +7,53 @@ section{
     height: 500px;
     padding-bottom: 150px;
 }
+/* header starts */
+li , a , button{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 10%;
+	background: #67e4f8;
+}
+header .navbar-brand .logo{
+    max-width: 225px;
+}
+/* nav menu starts */
+.navbar_nav{
+    list-style: none;
+}
+.navbar_nav .nav-item{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar_nav .nav-item .nav-link{
+    color: #5928b1;
+    font-weight: bold;
+    transition: 0.3s all ease 0s;
+}
+.navbar_nav .nav-item .nav-link:hover{
+    color: #d42a2a;
+}
+/* nav menu ends */
+header .cta button{
+    background: #5928b1;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease 0s;
+}
+header .cta button:hover{
+    background: #381479;
+}
+/* header ends */
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
